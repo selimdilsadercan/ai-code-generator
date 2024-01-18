@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 import { getAuthSession } from "@/lib/auth";
 import ThemeToggle from "./ThemeToggle";
+import UserButton from "./UserButton";
+import SignInButton from "./SignInButton";
 
 async function Navbar() {
   const session = await getAuthSession();
@@ -29,7 +31,10 @@ async function Navbar() {
             </>
           )}
           <ThemeToggle className="mr-3" />
-          {/* <div className="flex items-center">{session?.user ? <UserAccountNav user={session.user} /> : <SignInButton />}</div> */}
+          <div className="flex items-center">
+            {session?.user && <UserButton user={session.user} />}
+            {!session?.user && <SignInButton />}
+          </div>
         </div>
       </div>
     </nav>
