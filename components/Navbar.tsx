@@ -16,7 +16,7 @@ async function Navbar() {
             Learning Journey YT
           </p>
         </Link>
-        <div className="flex items-center">
+        <div className="flex items-center gap-1">
           <Link href="/gallery" className="mr-3">
             Gallery
           </Link>
