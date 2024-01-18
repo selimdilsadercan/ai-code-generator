@@ -82,10 +82,7 @@ function CreateCourseForm({ isPro }: Props) {
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: "auto" }}
                   exit={{ opacity: 0, height: 0 }}
-                  transition={{
-                    opacity: { duration: 0.2 },
-                    height: { duration: 0.2 }
-                  }}
+                  transition={{ opacity: { duration: 0.2 }, height: { duration: 0.2 } }}
                 >
                   <FormField
                     key={index}
