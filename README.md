@@ -28,8 +28,16 @@
 - [x] paste this Client ID and Client Secret to .env
 - [x] add /app/api/auth
 
+- [x] "npm install next-themes"
+- [x] add /providers/theme-provider.tsx
+- [x] create ThemeToggle.tsx switch
+- [x] wrap {children} with ThemeProvider
+- [x] add suppressHydrationWarning to html tag
+
 ---
 
 - basis stack: nextjs13-app-nosrc, react, shadcn, tailwind, prisma, coacrochdb, nextauth
 
 ---
+
+- neden olduğunu bilmediğim bir şey için antialiased kullanıyor
