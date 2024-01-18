@@ -35,6 +35,16 @@
 - [x] wrap {children} with ThemeProvider
 - [x] add suppressHydrationWarning to html tag
 
+- [x] "npm i zod", "npm i react-hook-form", "npx shadcn-ui@latest add form"
+
+- [x] "npm i @tanstack/react-query"
+- [ ] add /providers/query-provider
+- [ ] wrap {children} with provider
+
+- [x] "npm i react-hot-toast"
+- [x] add /providers/toast-provider
+- [ ] add provider next to {children}
+
 ---
 
 - basis stack: nextjs13-app-nosrc, react, shadcn, tailwind, prisma, coacrochdb, nextauth
