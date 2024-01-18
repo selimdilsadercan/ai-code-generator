@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Lexend } from "next/font/google";
 import "./globals.css";
-const font = Inter({ subsets: ["latin"] });
+const font = Lexend({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Course Generator",
+  title: "AI Course Generator"
 };
 
 function Layout({ children }: { children: React.ReactNode }) {
