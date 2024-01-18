@@ -23,7 +23,8 @@
 - [x] "npm i next-auth" and "@next-auth/prisma-adapter"
 - [x] add Account, User and Session to prisma.schema
 - [x] add /lib/auth.ts
-- [x] create OAuth consent screen and create new OAuth ClintID credential at google developer console -> APIs & Services
+- [x] create OAuth consent screen publish app
+- [x] create new OAuth ClintID credential at google developer console -> APIs & Services
 - [x] add http://localhost:3000 to first http://localhost:3000/api/auth/callback/google to second
 - [x] paste this Client ID and Client Secret to .env
 - [x] add /app/api/auth
