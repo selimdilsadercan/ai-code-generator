@@ -47,6 +47,10 @@
 - [x] add /providers/toast-provider
 - [x] add provider next to {children}
 
+- [ ] "npm i openai@3.3.0"
+- [ ] create /lib/gpt.ts
+- [ ] create openai key and paste as OPENAI_API_KEY in env
+
 ---
 
 - primary stack: nextjs13-app-nosrc, react, shadcn, tailwind, prisma, coacrochdb, nextauth
